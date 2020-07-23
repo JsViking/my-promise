@@ -8,5 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "my-promise"
+  "description": "my-promise",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsViking/my-promise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JsViking/my-promise/issues"
+  },
+  "homepage": "https://github.com/JsViking/my-promise#readme"
 }
