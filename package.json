@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "promise.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JsViking/my-promise/issues"
   },
-  "homepage": "https://github.com/JsViking/my-promise#readme"
+  "homepage": "https://github.com/JsViking/my-promise#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
 }
