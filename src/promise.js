@@ -7,6 +7,8 @@ class myPromise {
       executor.call(null, this.onResolve.bind(this), this.onReject.bind(this))
     } catch (error) {
       this.errorHandler(error)
+    } finally {
+      this.onFinally()
     }
   }
 
